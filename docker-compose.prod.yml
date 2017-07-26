@@ -18,7 +18,7 @@ services:
     volumes:
       - "${LE_DIR}:/etc/letsencrypt"
     ports:
-      - 80:80
+      - 8080:80
       - 443:443
 
   # The Database
