@@ -16,7 +16,7 @@ services:
   web:
     image: shakyshane/laravel-web
     volumes:
-      - "${LE_DIR}:/etc/letsencrypt"
+      - "${LE_DIR}:/etc/certs"
     ports:
       - 80:80
       - 443:443
